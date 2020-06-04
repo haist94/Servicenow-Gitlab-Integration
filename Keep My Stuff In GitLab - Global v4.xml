@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-05-23 02:32:52">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically Backups Up All the Update Set created within a timeframe and stores them in Gitlab
+Made by @haist94
+No scoped since some of the capabilities are restricted</description>
+<inserted/>
+<name>Keep My Stuff In GitLab</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>398f6fafdb3c9c10a4faf9051d9619c3</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>21202c4cdbcd1050a4faf9051d961910</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<u_release display_value=""/>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_1d39faef2f3c5010e95657ab2799b661</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="GitLab Settings">d12832ef2f3c5010e95657ab2799b680</category><order>300</order><property display_value="gitlab.user_name" name="gitlab.user_name">8af8f6ef2f3c5010e95657ab2799b6e2</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:24:37</sys_created_on><sys_id>1d39faef2f3c5010e95657ab2799b661</sys_id><sys_mod_count>1</sys_mod_count><sys_name>gitlab.user_name.GitLab Settings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_1d39faef2f3c5010e95657ab2799b661</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 00:29:48</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>-92692337</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>31202c4cdbcd1050a4faf9051d961911</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc1650000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.user_name.GitLab Settings</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>1d6afa239f7c501048f2ef73c6f3f277</update_guid>
+<update_guid_history>1d6afa239f7c501048f2ef73c6f3f277:-92692337,1139faef143c5010e767a69dd03dfc63:1064744973</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_0a71629f2f705010e95657ab2799b6ee</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message"><sys_rest_message action="INSERT_OR_UPDATE"><access>package_private</access><authentication_type>no_authentication</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><description/><name>Gitlab Connection</name><oauth2_profile/><protocol_name/><rest_endpoint>https://gitlab.com/</rest_endpoint><sys_class_name>sys_rest_message</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-21 04:03:46</sys_created_on><sys_id>0a71629f2f705010e95657ab2799b6ee</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Gitlab Connection</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_0a71629f2f705010e95657ab2799b6ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 00:59:15</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mutual_auth>false</use_mutual_auth></sys_rest_message></record_update>]]></payload>
+<payload_hash>-1832847951</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>3120ec40db015050a4faf9051d961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc1b80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>Gitlab Connection</target_name>
+<type>REST Message</type>
+<update_domain>global</update_domain>
+<update_guid>a0218b27297c5010337e44c05725cf55</update_guid>
+<update_guid_history>a0218b27297c5010337e44c05725cf55:-1832847951,61c1229b75705010bc52d411b9898562:399320260</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sysauto_f7553babdb7c9c10a4faf9051d96198a</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysauto"&gt;&lt;sysauto_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;name&gt;Update Set Scheduled Backup - Gitlab&lt;/name&gt;&lt;run_as display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;6&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2020-05-22 04:47:28&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 17:00:00&lt;/run_time&gt;&lt;run_type&gt;weekly&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[//Refer to the Gitlab properties to set filters, destination and retrieval data configurations
+///system_properties_ui.do?sysparm_category=GitLab%20Settings&amp;sysparm_domain_restore=false&amp;sysparm_stack=no
+
+var helper = new GitLabHelper();
+helper.generateAndUploadSets();]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-22 04:48:43&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;f7553babdb7c9c10a4faf9051d96198a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Update Set Scheduled Backup - Gitlab&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_f7553babdb7c9c10a4faf9051d96198a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-22 04:48:43&lt;/sys_updated_on&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1781646114</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>3120ec40db015050a4faf9051d961953</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723ab76f400000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>Update Set Scheduled Backup - Gitlab</target_name>
+<type>Scheduled Script Execution</type>
+<update_domain>global</update_domain>
+<update_guid>ecf5fb6ba37c9c1062930b1e940a6894</update_guid>
+<update_guid_history>ecf5fb6ba37c9c1062930b1e940a6894:-1781646114</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_3d8876ef2f3c5010e95657ab2799b67e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Encoded Query for Update set backup criteria</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>gitlab.scheduled_job_data_query</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:22:40</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3d8876ef2f3c5010e95657ab2799b67e</sys_id><sys_mod_count>3</sys_mod_count><sys_name>gitlab.scheduled_job_data_query</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_3d8876ef2f3c5010e95657ab2799b67e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 04:46:50</sys_updated_on><type>string</type><value/><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=3d8876ef2f3c5010e95657ab2799b67e"/></record_update>]]></payload>
+<payload_hash>1289398306</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>3520ec40db015050a4faf9051d961952</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723ab48e070000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.scheduled_job_data_query</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>6a35f3ab7e7c9c103eafc94d94f19a9e</update_guid>
+<update_guid_history>6a35f3ab7e7c9c103eafc94d94f19a9e:1289398306,10e03363247c9c10535549fc15610d4e:-1570923862,d19c3ea3757c50101fcfe9cbdb44e588:-773088342,41c8f6efaa3c5010d799d6cd8f0845df:1229992347</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_8af8f6ef2f3c5010e95657ab2799b6e2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Auth Username (if applicable)</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>gitlab.user_name</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:23:34</sys_created_on><sys_id>8af8f6ef2f3c5010e95657ab2799b6e2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>gitlab.user_name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_8af8f6ef2f3c5010e95657ab2799b6e2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 00:39:49</sys_updated_on><type>string</type><value/><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=8af8f6ef2f3c5010e95657ab2799b6e2"/></record_update>]]></payload>
+<payload_hash>-1200444398</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>3920ec40db015050a4faf9051d961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc1a20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.user_name</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>54bcbea3e17c50104e6365a13afb8f14</update_guid>
+<update_guid_history>54bcbea3e17c50104e6365a13afb8f14:-1200444398,5af8f6effd3c50108e40ef53e8cd38e6:212030897</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_60ab32a32f7c5010e95657ab2799b625</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles>admin</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:35:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>60ab32a32f7c5010e95657ab2799b625</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GitLab Backups</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_application_60ab32a32f7c5010e95657ab2799b625</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 00:35:37</sys_updated_on><title>GitLab Backups</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-580498953</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>3d202c4cdbcd1050a4faf9051d961911</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc1800000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>GitLab Backups</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>dabb3e63897c5010183a7a593cbb9430</update_guid>
+<update_guid_history>dabb3e63897c5010183a7a593cbb9430:-580498953,69fea76f983c9c10755bb9f3ed2e26db:-304694323,dabb3e63897c5010183a7a593cbb9430:-580498953,dabb3e63897c5010183a7a593cbb9430:-580498953</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_7ad2b3a7db7c9c10a4faf9051d9619f0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>Content-Type</name><rest_message_function display_value="UploadFile">a1c1229b2f705010e95657ab2799b65f</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 04:37:16</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>7ad2b3a7db7c9c10a4faf9051d9619f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content-Type</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_headers_7ad2b3a7db7c9c10a4faf9051d9619f0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 04:37:16</sys_updated_on><value>application/json</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>565713139</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>3d20ec40db015050a4faf9051d961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723aabc8e30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>Content-Type</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>de03f7a7ea7c9c108c3922ce05e331e7</update_guid>
+<update_guid_history>de03f7a7ea7c9c108c3922ce05e331e7:565713139</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_65a9b2232f7c5010e95657ab2799b6bb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>File Path to store update sets . Example: /SNOW_Updates/Dev</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>gitlab.file_path</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:26:33</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>65a9b2232f7c5010e95657ab2799b6bb</sys_id><sys_mod_count>7</sys_mod_count><sys_name>gitlab.file_path</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_65a9b2232f7c5010e95657ab2799b6bb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-23 00:02:35</sys_updated_on><type>string</type><value>Development</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=65a9b2232f7c5010e95657ab2799b6bb"/></record_update>]]></payload>
+<payload_hash>553204603</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>7120ec40db015050a4faf9051d961952</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723ed6b4740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.file_path</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>b0cdfff3c73c1050faf6937945842c8c</update_guid>
+<update_guid_history>b0cdfff3c73c1050faf6937945842c8c:553204603,a00bbfffbbf8105024d167f373dce08a:2061156792,be35f3abdc7c9c108ee701839fbf98f8:-1027878906,30e033632f7c9c10a37436d68cdd3183:1024355334,807cbaa3d97c50105ed1b4ead84f0680:-641706354,0d4afa23827c5010c1c85d2c4f5356ba:-1357509846,371aba23f87c5010df6a9659f4424bec:1342206312,35a97623f97c5010c5db78c77428242d:1085127609</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_3a39faef2f3c5010e95657ab2799b6c7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="Gitlab Settings">d12832ef2f3c5010e95657ab2799b680</category><order>100</order><property display_value="gitlab.scheduled_job_data_query" name="gitlab.scheduled_job_data_query">3d8876ef2f3c5010e95657ab2799b67e</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:24:44</sys_created_on><sys_id>3a39faef2f3c5010e95657ab2799b6c7</sys_id><sys_mod_count>4</sys_mod_count><sys_name>gitlab.scheduled_job_data_query.Gitlab Settings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_3a39faef2f3c5010e95657ab2799b6c7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 01:51:02</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>1973993429</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>75202c4cdbcd1050a4faf9051d961912</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc1d80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.scheduled_job_data_query.Gitlab Settings</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>47fc8f6fc07c5010e1090796d59e071c</update_guid>
+<update_guid_history>47fc8f6fc07c5010e1090796d59e071c:1973993429,cdfc4f6f9f7c5010dda39d8b3091251a:592185491,6feccb6f647c5010dd2984f50314db1d:1283089460,485abe234b7c5010770e973f343e95a6:-1485203435,3e39faef0f3c501087bda0bc59c54fc8:-1306417515</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_1a093eef2f3c5010e95657ab2799b693</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Auth Password (if applicable)</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>gitlab.password</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:23:52</sys_created_on><sys_id>1a093eef2f3c5010e95657ab2799b693</sys_id><sys_mod_count>1</sys_mod_count><sys_name>gitlab.password</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_1a093eef2f3c5010e95657ab2799b693</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 00:38:55</sys_updated_on><type>password2</type><value/><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=1a093eef2f3c5010e95657ab2799b693"/></record_update>]]></payload>
+<payload_hash>1614419383</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>7520ec40db015050a4faf9051d961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc1980000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.password</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>4f7cf2a34d7c50100b3cb1bfe00c8c61</update_guid>
+<update_guid_history>4f7cf2a34d7c50100b3cb1bfe00c8c61:1614419383,2a093eef773c501031bd4eb660746e99:-850283016</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_467836ef2f3c5010e95657ab2799b655</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="GitLab Settings">d12832ef2f3c5010e95657ab2799b680</category><order>200</order><property display_value="gitlab.auth_token" name="gitlab.auth_token">96c83aef2f3c5010e95657ab2799b69a</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:24:24</sys_created_on><sys_id>467836ef2f3c5010e95657ab2799b655</sys_id><sys_mod_count>1</sys_mod_count><sys_name>gitlab.auth_token.GitLab Settings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_467836ef2f3c5010e95657ab2799b655</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 00:29:39</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>-1669223463</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>79202c4cdbcd1050a4faf9051d961911</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc1480000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.auth_token.GitLab Settings</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>7e5a7e23fa7c501035822a2e47176b1c</update_guid>
+<update_guid_history>7e5a7e23fa7c501035822a2e47176b1c:-1669223463,0229beef7c3c50103babcbb8fd24d3a1:-1156633862</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_e07543a72f7c5010e95657ab2799b6d1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="Gitlab Settings">d12832ef2f3c5010e95657ab2799b680</category><order>800</order><property display_value="gitlab.project_branch" name="gitlab.project_branch">c05547a72f7c5010e95657ab2799b67e</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 01:18:05</sys_created_on><sys_id>e07543a72f7c5010e95657ab2799b6d1</sys_id><sys_mod_count>3</sys_mod_count><sys_name>gitlab.project_branch.Gitlab Settings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_e07543a72f7c5010e95657ab2799b6d1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 01:51:10</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>-311554624</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>7920ec40db015050a4faf9051d961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc1dd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.project_branch.Gitlab Settings</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>450d8f6f0a7c5010de49cd9ce3c7896b</update_guid>
+<update_guid_history>450d8f6f0a7c5010de49cd9ce3c7896b:-311554624,180d036f1c7c50105c817ddddd06d9e6:-1115969889,64858f2bda7c501086eb79d23c23b6ef:1373631655,24758f2bcc7c50108ed13341acda783c:-1069431584</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_4c3a7eef2f3c5010e95657ab2799b684</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="GitLab Settings">d12832ef2f3c5010e95657ab2799b680</category><order>700</order><property display_value="gitlab.file_path" name="gitlab.file_path">65a9b2232f7c5010e95657ab2799b6bb</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:28:55</sys_created_on><sys_id>4c3a7eef2f3c5010e95657ab2799b684</sys_id><sys_mod_count>1</sys_mod_count><sys_name>gitlab.file_path.GitLab Settings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_4c3a7eef2f3c5010e95657ab2799b684</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 00:30:17</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>1902886719</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>7d202c4cdbcd1050a4faf9051d961910</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc1750000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.file_path.GitLab Settings</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>5c8a7263f67c501075e4d474cf017413</update_guid>
+<update_guid_history>5c8a7263f67c501075e4d474cf017413:1902886719,883a7eef493c5010fc5855d29c9cfc87:1050160280</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_05a3c80cdb0d1050a4faf9051d9619a5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="GitLab Backups">60ab32a32f7c5010e95657ab2799b625</application><assessment/><content_page/><device_type/><filter/><hint>Set up the frequency of the sch</hint><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Modify Scheduled Data Pull</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>200</order><override_menu_roles>false</override_menu_roles><query>/sysauto_script.do?sys_id=f7553babdb7c9c10a4faf9051d96198a</query><report/><roles>admin</roles><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-23 00:30:00</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>05a3c80cdb0d1050a4faf9051d9619a5</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Scheduled Job Settings</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_05a3c80cdb0d1050a4faf9051d9619a5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-23 00:30:25</sys_updated_on><timeline_page/><title>Scheduled Job Settings</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1810908354</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>7d20ec40db015050a4faf9051d961952</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723ef026c60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>Scheduled Job Settings</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>cc24040c630d1050c223f540bd65ff46</update_guid>
+<update_guid_history>cc24040c630d1050c223f540bd65ff46:-1810908354,1e04444c2a0d1050b622781aa05e5503:2127048406</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_c0397eef2f3c5010e95657ab2799b672</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="GitLab Settings">d12832ef2f3c5010e95657ab2799b680</category><order>400</order><property display_value="gitlab.password" name="gitlab.password">1a093eef2f3c5010e95657ab2799b693</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:24:32</sys_created_on><sys_id>c0397eef2f3c5010e95657ab2799b672</sys_id><sys_mod_count>1</sys_mod_count><sys_name>gitlab.password.GitLab Settings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_c0397eef2f3c5010e95657ab2799b672</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 00:29:59</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>557650381</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>a5202c4cdbcd1050a4faf9051d961910</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc16b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.password.GitLab Settings</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>bb6a7e23d87c5010a7da9b7557d4bd20</update_guid>
+<update_guid_history>bb6a7e23d87c5010a7da9b7557d4bd20:557650381,8439feef893c5010f4abd8023813d971:469629040</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_a1c1229b2f705010e95657ab2799b65f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content>${body}</content><function_name>UploadFile</function_name><http_method>post</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>Gitlab Connection [ UploadFile ]</qualified_name><rest_endpoint>https://${endpoint}/api/v4/projects/${projectID}/repository/files/${path}%2F${name}%2Exml</rest_endpoint><rest_message display_value="Gitlab Connection">0a71629f2f705010e95657ab2799b6ee</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-21 04:03:46</sys_created_on><sys_id>a1c1229b2f705010e95657ab2799b65f</sys_id><sys_mod_count>3</sys_mod_count><sys_name>UploadFile</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_a1c1229b2f705010e95657ab2799b65f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 01:24:04</sys_updated_on><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+<payload_hash>-1698251901</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>b1202c4cdbcd1050a4faf9051d961912</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc1cc0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>UploadFile</target_name>
+<type>HTTP Method</type>
+<update_domain>global</update_domain>
+<update_guid>08d6cf6b677c5010fcb231cb00193d57</update_guid>
+<update_guid_history>08d6cf6b677c5010fcb231cb00193d57:-1698251901,626107a77e7c501063b0270a1a863a8c:-899690886,eee1669ff37050102ddeecdc3a336b29:-1776712255,21c1229b27705010e4fabbd7050e3661:-930637417</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_96c83aef2f3c5010e95657ab2799b69a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Authentication Token From Gitlab</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>gitlab.auth_token</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:23:19</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>96c83aef2f3c5010e95657ab2799b69a</sys_id><sys_mod_count>3</sys_mod_count><sys_name>gitlab.auth_token</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_96c83aef2f3c5010e95657ab2799b69a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 04:46:51</sys_updated_on><type>string</type><value/><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=96c83aef2f3c5010e95657ab2799b69a"/></record_update>]]></payload>
+<payload_hash>-1649121669</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>b120ec40db015050a4faf9051d961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723ab48f7a0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.auth_token</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>6e35f3ab027c9c10c6af3568e9a36da8</update_guid>
+<update_guid_history>6e35f3ab027c9c10c6af3568e9a36da8:-1649121669,24e03363717c9c106c3a20a3d9c0c358:1998765722,005cf2a3b67c5010a9dcee39e01ec2b7:-2099820861,e6e836ef323c5010849c5687248dd1af:-280099500</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_6bdab2632f7c5010e95657ab2799b650</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="GitLab Settings">d12832ef2f3c5010e95657ab2799b680</category><order>600</order><property display_value="gitlab.projectId" name="gitlab.projectId">dcdabe232f7c5010e95657ab2799b61f</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:31:52</sys_created_on><sys_id>6bdab2632f7c5010e95657ab2799b650</sys_id><sys_mod_count>0</sys_mod_count><sys_name>gitlab.projectId.GitLab Settings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_6bdab2632f7c5010e95657ab2799b650</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 00:31:52</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>641439173</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>b5202c4cdbcd1050a4faf9051d961911</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc17b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.projectId.GitLab Settings</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>e7dab263267c5010e6848e21d6881a53</update_guid>
+<update_guid_history>e7dab263267c5010e6848e21d6881a53:641439173</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_4d47be6b2f3c5010e95657ab2799b644</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.GitLabHelper&lt;/api_name&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Gitlab Helper functions&amp;#13;
+Done by @Haist94&lt;/description&gt;&lt;name&gt;GitLabHelper&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var GitLabHelper = Class.create();
+GitLabHelper.prototype = {
+	initialize: function() {},
+		
+		generateAndUploadSets : function() {
+			var updateSetUtilities = new UpdateSetUtil();
+			var failedCounter = 0;
+			var successfullCounter = 0;
+			var gr = this.getUpdateSets();
+			while (gr.next()) {
+				var payload = updateSetUtilities.copyAndExtract(gr.sys_id);
+				var failedToUpload = this.uploadFiles(payload, gr.name, gr.sys_created_by);
+				if(failedToUpload){
+					failedCounter++;
+				}else{
+					successfullCounter++;
+				}
+			}
+			
+			gs.info("Job Completed at " + gs.nowDateTime() + '. There were ' + successfullCounter + ' succesful uploads and ' +	failedCounter + ' failed attempts');
+		},
+		
+		getUpdateSets: function() {
+			try {
+				var encodedQuery = gs.getProperty("gitlab.scheduled_job_data_query", "");
+				
+				var gr = new GlideRecord('sys_update_set');
+				gr.addEncodedQuery('name!=Default'); //Excluding default update sets. Nobody cares about them
+				if (encodedQuery) {
+					gr.addEncodedQuery('^' + encodedQuery);
+				}
+				gr.query();
+				
+				return gr;
+			} catch (e) {
+				gs.error('GitLabHelper.getUpdateSets error: ' + e.message, this.type);
+			}
+		},
+		
+		uploadFiles : function (payload, fileName, userID){
+			var response = this.doTheRESTCall(payload, fileName, userID);
+			var httpStatus = response.getStatusCode();
+			
+			if (httpStatus != '201') {
+				var errorDetail = response.getBody();
+				var isDuplicateFile = new JSONParser().parse(errorDetail).message.toString().indexOf('name already exists') &gt; -1;
+				if(isDuplicateFile){
+					var retryAttempt = this.doTheRESTCall(payload, fileName + '_' + gs.nowDateTime(), userID);
+					var isASuccessfulRetry = (retryAttempt.getStatusCode() == '201');
+					if (isASuccessfulRetry)  {
+						gs.info('Filename ' + fileName + '_' + gs.nowDateTime() + ' successfully uploaded after a retry', this.type);
+						return false;
+					}
+					errorDetail = retryAttempt.getBody();
+				}
+				gs.error('Error Code: ' + errorDetail + '.Please verify configurations', this.type);
+				return true;
+			}
+
+			gs.info('Successfully Uploaded: ' + fileName, this.type);
+			return false;
+		},
+		
+		doTheRESTCall: function(payload, fileName, userID) {
+			try {
+				var credentials = {
+					token: gs.getProperty("gitlab.auth_token", ""),
+					password: gs.getProperty("gitlab.password", ""),
+					username: gs.getProperty("gitlab.user_name", "")
+				};
+				
+				var filepath = {
+					path: gs.getProperty("gitlab.file_path", ""),
+					projectId: gs.getProperty("gitlab.projectId", ""),
+					url: gs.getProperty("gitlab.url", "")
+				};
+				
+				var encodedContents = GlideStringUtil.base64Encode(payload);
+				var user = this._getUser(userID);
+				
+				var body = {
+					"branch": gs.getProperty("gitlab.project_branch", "master"),
+					"author_email": user.email.toString(),
+					"author_name": user.name.toString(),
+					"commit_message": "Update Set Automatic Backup",
+					"content": encodedContents,
+					"encoding": "base64"
+				};
+				
+				var restMessage = new sn_ws.RESTMessageV2('Gitlab Connection', 'UploadFile');
+				restMessage.setStringParameterNoEscape('body', JSON.stringify(body));
+				restMessage.setStringParameterNoEscape('name', encodeURI(fileName ));
+				restMessage.setStringParameterNoEscape('endpoint', filepath.url);
+				restMessage.setStringParameterNoEscape('path', encodeURI(filepath.path));
+				restMessage.setStringParameterNoEscape('projectID', filepath.projectId);
+				restMessage.setStringParameterNoEscape('token', credentials.token);
+				
+				if(credentials.password &amp;&amp; credentials.username){
+					restMessage.setBasicAuth(credentials.username, new GlideEncrypter().decrypt(credentials.password));
+				}
+				
+				return restMessage.execute();
+			} catch (ex) {
+				gs.error('GitLabHelper.uploadFilesToGitlab error: ' + ex.message, this.type);
+			}
+			
+		},
+		
+		_getUser: function(userID) {
+			if (!userID) {
+				return '';
+			}
+			
+			var grGet = new GlideRecord('sys_user');
+			grGet.addQuery('user_name', userID);
+			grGet.query();
+			return grGet;
+		},
+		
+		type: 'GitLabHelper'
+	};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-22 00:18:06&lt;/sys_created_on&gt;&lt;sys_customer_update&gt;false&lt;/sys_customer_update&gt;&lt;sys_id&gt;4d47be6b2f3c5010e95657ab2799b644&lt;/sys_id&gt;&lt;sys_mod_count&gt;31&lt;/sys_mod_count&gt;&lt;sys_name&gt;GitLabHelper&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_replace_on_upgrade&gt;false&lt;/sys_replace_on_upgrade&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_4d47be6b2f3c5010e95657ab2799b644&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-23 02:32:24&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1033222534</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>b520ec40db015050a4faf9051d961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723f5fd3dd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>GitLabHelper</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>f600e840f0015050bd33becd4edd62d1</update_guid>
+<update_guid_history>f600e840f0015050bd33becd4edd62d1:1033222534,bb3fdcccfacd1050c0682e65f54cdcee:-1485351377,c28e900c29cd1050ac8f2f6d268377be:-1680445860,ed5ed0888acd1050ac4440a8d93762a4:-2034416903,aa1ed0885ccd10504f13aea825350bf0:-1050140418,133d14482ecd1050d321220de0116a5a:905851943,57fcd088f5cd105070366c0c8337e93e:-405341663,e9dc144889cd105077f6443a12b8ada1:-1091211806,669c5c4847cd1050b45301f4611cfa5a:529287240,bf2c58c4c7cd105083732c46df4e9f31:-711949842,2bbbdcc4dccd105051887d6f72e59295:-1115195030,c1ab1cc45ecd1050f1c2a60455be0123:-1213385386,a89d33b3a13c10507e41a1c3ad820afd:1865498505,7494b72b297c9c104bf6b47c737c1087:258354701,6974ff2bd27c9c100c734911a33b6e33:192404770,5944bb2b6c7c9c1047ba6d3d7ee321c8:1294885348,2e1473e7e37c9c10d4afcd4696794b5c:-1822855262,8a8373e74d7c9c10d3abdd6c3a61cf72:-385221902,10827b27277c9c1043eae60e175a8946:66666067,61e13b63f87c9c102bd99ededcbcf272:452307465,8b31fb63e07c9c10f0716895c9e354bd:1941204750,f521fb63177c9c10f47dbfb56e3b5388:-101724934,34c0ffef1d3c9c101c822aca71082638:-281515285,7530f3232f7c9c10b37a756171fc32c5:-7433739,5ecccf6fb47c50104cd93e1caafca006:1709357844,e83c8fa71d7c501044097eab3e82b298:-263878993,f4ca4b2f0c7c5010f40744f40cc99329:628161245,5a5ac76b5e7c501067f82a2a8eb36e68:-1614909869,b63ac7abc57c5010f1991f85110a8862:1610563059,54528fa75a7c5010878f169117274245:1912108559,b401cf67d27c50103692c93faf3e4674:-1560212698,adb7f2aff63c5010ed955a45a5e9b7f9:-498253677</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_d12832ef2f3c5010e95657ab2799b680</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_properties_category"&gt;&lt;sys_properties_category action="INSERT_OR_UPDATE"&gt;&lt;name&gt;Gitlab Settings&lt;/name&gt;&lt;sys_class_name&gt;sys_properties_category&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-22 00:21:01&lt;/sys_created_on&gt;&lt;sys_id&gt;d12832ef2f3c5010e95657ab2799b680&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;Gitlab Settings&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_properties_category_d12832ef2f3c5010e95657ab2799b680&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-22 00:51:01&lt;/sys_updated_on&gt;&lt;title&gt;&lt;![CDATA[&lt;p&gt;&lt;span style="text-decoration: underline; font-size: 10pt;"&gt;&lt;strong&gt;GitLab Integration Settings&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 8pt;"&gt;URL Settings Example&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="color: #000000; font-size: 8pt;"&gt;&lt;a style="color: #000000;" href="https://gitlab.com/api/v4/projects/18906344/repository/files/SNOW_Update" rel="nofollow"&gt;https://&lt;span style="background-color: #ffcc99;"&gt;gitlab.com&lt;/span&gt;/api/v4/projects/&lt;span style="background-color: #ffcc99;"&gt;18906344&lt;/span&gt;/repository/files/&lt;span style="background-color: #ffcc99;"&gt;SNOW_Update&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="font-size: 8pt;"&gt;              URL                                Project ID                           FilePath&lt;/span&gt;&lt;/p&gt;]]&gt;&lt;/title&gt;&lt;/sys_properties_category&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d12832ef2f3c5010e95657ab2799b680"/&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1150848220</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>b920ec40db015050a4faf9051d961952</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc1b20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>Gitlab Settings</target_name>
+<type>System Property Category</type>
+<update_domain>global</update_domain>
+<update_guid>373ffa27797c5010bdda9381a1b2abfa</update_guid>
+<update_guid_history>373ffa27797c5010bdda9381a1b2abfa:1150848220,532fb2e37f7c5010be6a9f4e4ddb3565:369136092,2a1f7a27407c5010c7782ad238d45d67:604875639,48fe7ea3bb7c5010af51299114d4a3a1:2121204567,4ddefea3107c5010f58833433c53522f:1198433948,b9ce72e3477c501019870850fb7df4e7:2058195381,d09e3627d77c501065cf7798eabd75eb:-2010155092,4078f2ef493c50107ee0627bf929468a:-534607860,5068f6af5b3c50101879e361dd694106:149921953</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_f22b7a632f7c5010e95657ab2799b631</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="GitLab Backups">60ab32a32f7c5010e95657ab2799b625</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>DIRECT</link_type><map_page/><mobile_title>Gitlab Backups</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>100</order><override_menu_roles>false</override_menu_roles><query>/system_properties_ui.do?sysparm_category=GitLab%20Settings&amp;sysparm_domain_restore=false&amp;sysparm_stack=no</query><report/><roles>admin</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:34:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f22b7a632f7c5010e95657ab2799b631</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Gitlab Properties</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_f22b7a632f7c5010e95657ab2799b631</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 00:36:09</sys_updated_on><timeline_page/><title>Gitlab Properties</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1704563924</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>bd20ec40db015050a4faf9051d961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc1870000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>Gitlab Properties</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>16db7e635d7c5010c411c7096ea921d9</update_guid>
+<update_guid_history>16db7e635d7c5010c411c7096ea921d9:-1704563924,421f6f6fac3c9c10025855694d386345:404057923,e9fea76f2d3c9c10496364a83f039fd6:0,6dd36363e53c90506f31c361bfeb8cee:-471161001,a4c3ebab9df89050fcf7643e3cd067a6:-1773401286,16db7e635d7c5010c411c7096ea921d9:-1704563924,16db7e635d7c5010c411c7096ea921d9:-1704563924,c3bbbe63cf7c5010b5ce59e9f4ee436d:-2133493110,036b3e63f77c5010eca493aef690e52a:-1789927747</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_category_m2m_d63a76ef2f3c5010e95657ab2799b661</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m"><sys_properties_category_m2m action="INSERT_OR_UPDATE"><category display_value="GitLab Settings">d12832ef2f3c5010e95657ab2799b680</category><order>500</order><property display_value="gitlab.url" name="gitlab.url">c879faef2f3c5010e95657ab2799b664</property><sys_class_name>sys_properties_category_m2m</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:29:04</sys_created_on><sys_id>d63a76ef2f3c5010e95657ab2799b661</sys_id><sys_mod_count>1</sys_mod_count><sys_name>gitlab.url.GitLab Settings</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_category_m2m_d63a76ef2f3c5010e95657ab2799b661</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 00:30:08</sys_updated_on></sys_properties_category_m2m></record_update>]]></payload>
+<payload_hash>-2081129271</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>f1202c4cdbcd1050a4faf9051d961911</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc1700000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.url.GitLab Settings</target_name>
+<type>Category Property</type>
+<update_domain>global</update_domain>
+<update_guid>4a7afa23787c5010db54ee2fa8e7b87b</update_guid>
+<update_guid_history>4a7afa23787c5010db54ee2fa8e7b87b:-2081129271,563a3e23557c5010a1bd2c1bd95110ff:34861381</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_c05547a72f7c5010e95657ab2799b67e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Branch to be pushed. Default is master</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>gitlab.project_branch</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 01:18:04</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>c05547a72f7c5010e95657ab2799b67e</sys_id><sys_mod_count>3</sys_mod_count><sys_name>gitlab.project_branch</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_c05547a72f7c5010e95657ab2799b67e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 04:46:52</sys_updated_on><type>string</type><value/><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=c05547a72f7c5010e95657ab2799b67e"/></record_update>]]></payload>
+<payload_hash>-186205839</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>f120ec40db015050a4faf9051d961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723ab495880000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.project_branch</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>cf3537ab057c9c106115c010bd871b02</update_guid>
+<update_guid_history>cf3537ab057c9c106115c010bd871b02:-186205839,38e03363567c9c100791629c1205e999:327338976,839543a76d7c50102ee13d804c37ff2e:-670724551,247543a75d7c50103d61a3097af194cf:895622773</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_c879faef2f3c5010e95657ab2799b664</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Gitlab URL Instance (Example: http://gitlab.com)</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>gitlab.url</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:25:38</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>c879faef2f3c5010e95657ab2799b664</sys_id><sys_mod_count>4</sys_mod_count><sys_name>gitlab.url</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_c879faef2f3c5010e95657ab2799b664</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 04:46:51</sys_updated_on><type>string</type><value/><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=c879faef2f3c5010e95657ab2799b664"/></record_update>]]></payload>
+<payload_hash>1272872783</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>f520ec40db015050a4faf9051d961952</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723ab490d40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.url</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>3235f3ab917c9c1006e62abb7ed4a1b3</update_guid>
+<update_guid_history>3235f3ab917c9c1006e62abb7ed4a1b3:1272872783,e4e03363877c9c1097b7f05428c64362:-1277550570,0cccbea3c07c501018da11e0fe70351d:1167066775,c9acb2a3927c5010d28352dc3d568943:1049736632,1079b223e87c5010d6b9a0a4978d274f:1069057247</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_dcdabe232f7c5010e95657ab2799b61f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Project ID to be used. Example 18906344</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>gitlab.projectId</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-22 00:31:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>dcdabe232f7c5010e95657ab2799b61f</sys_id><sys_mod_count>3</sys_mod_count><sys_name>gitlab.projectId</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_dcdabe232f7c5010e95657ab2799b61f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 04:46:51</sys_updated_on><type>string</type><value/><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=dcdabe232f7c5010e95657ab2799b61f"/></record_update>]]></payload>
+<payload_hash>345421581</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>f920ec40db015050a4faf9051d961951</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723ab492680000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>gitlab.projectId</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>7235f3ab2c7c9c101580233c20492fbd</update_guid>
+<update_guid_history>7235f3ab2c7c9c101580233c20492fbd:345421581,ece03363477c9c10bfa80fff02e88d78:1287990795,56ec72e30e7c5010b2155bcfe9ae0ae0:-912451371,ecdabe23b07c5010d8a9a8950522ea23:-639655966</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_rest_message_fn_headers_17c16a5f2f705010e95657ab2799b68f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers"><sys_rest_message_fn_headers action="INSERT_OR_UPDATE"><name>PRIVATE-TOKEN</name><rest_message_function display_value="UploadToGit">a1c1229b2f705010e95657ab2799b65f</rest_message_function><sys_class_name>sys_rest_message_fn_headers</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-21 04:04:22</sys_created_on><sys_id>17c16a5f2f705010e95657ab2799b68f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>PRIVATE-TOKEN</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_rest_message_fn_headers_17c16a5f2f705010e95657ab2799b68f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-22 01:00:47</sys_updated_on><value>${token}</value></sys_rest_message_fn_headers></record_update>]]></payload>
+<payload_hash>-451045786</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>fd202c4cdbcd1050a4faf9051d961911</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9dc1be0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>PRIVATE-TOKEN</target_name>
+<type>HTTP Headers</type>
+<update_domain>global</update_domain>
+<update_guid>4f714367217c501023324e9066adb526</update_guid>
+<update_guid_history>4f714367217c501023324e9066adb526:-451045786,e6e1669f777050104da3af392f0b2827:9897994</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_c30f385b0f232200275b09bce1050e4d</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;
+&lt;access&gt;public&lt;/access&gt;
+&lt;active&gt;true&lt;/active&gt;
+&lt;api_name&gt;global.UpdateSetUtil&lt;/api_name&gt;
+&lt;caller_access/&gt;
+&lt;client_callable&gt;false&lt;/client_callable&gt;
+&lt;description&gt;Helper class to extract update set - mimics the OOB Export to XML functionality (only exports sys_update_set and sys_update_xml records, not attachments to update sets)..&lt;/description&gt;
+&lt;name&gt;UpdateSetUtil&lt;/name&gt;
+&lt;script&gt;&lt;![CDATA[var UpdateSetUtil = Class.create();
+UpdateSetUtil.prototype = {
+	initialize: function() {
+	}, 
+	
+	// We are concatenating several XML files, so we need to strip the XML declarations to maintain the final XML valid
+	_cleanXMLBlock: function(xmlString) {
+		try{
+			xmlString = xmlString.replace(/&lt;\?.*\?&gt;&lt;sys_remote_update_set&gt;/g,"&lt;sys_remote_update_set action=\"INSERT_OR_UPDATE\"&gt;");
+			xmlString = xmlString.replace(/&lt;\?.*\?&gt;&lt;sys_update_xml&gt;/g,"&lt;sys_update_xml action=\"INSERT_OR_UPDATE\"&gt;");
+		}
+		catch(e){}
+		return xmlString;
+	},
+	
+	// Copy the local update set to the retrieved update set table, as a temporary record, from where we will extract it
+	copyUpdateSet: function(sysid){
+		// Get current update set
+		var updateSet = new GlideRecord("sys_update_set");
+		updateSet.get(sysid);
+		
+		// Copy the update set to the retrieved update set table
+		var retrievedUpdateSet = new GlideRecord('sys_remote_update_set');
+		retrievedUpdateSet.initialize();
+		retrievedUpdateSet.description = updateSet.description;
+		retrievedUpdateSet.name = updateSet.name;
+		retrievedUpdateSet.release_date = updateSet.release_date;
+		retrievedUpdateSet.remote_sys_id = updateSet.sys_id;
+		retrievedUpdateSet.application = updateSet.application;
+		// Add scope information if needed
+		var scopeGr = new GlideRecord('sys_scope');
+		scopeGr.get(updateSet.application);
+		if (scopeGr.isValid()) {
+			retrievedUpdateSet.application_name = scopeGr.name;
+			retrievedUpdateSet.application_scope = scopeGr.scope;
+			retrievedUpdateSet.application_version = scopeGr.version;
+		}
+		retrievedUpdateSet.state = "loaded";
+		
+		var returnid = retrievedUpdateSet.insert();
+		
+		// Now iterate through all the customer updates from the original update set and create copies assigned to the new update set
+		var custUpdate = new GlideRecord('sys_update_xml');
+		custUpdate.addQuery('update_set', updateSet.sys_id);
+		custUpdate.query();
+		while(custUpdate.next()) {
+			custUpdate.remote_update_set = returnid; 
+			custUpdate.update_set = '';
+			custUpdate.insert();
+		}
+		
+		return returnid;
+	},
+	
+	// Delete the temporary retrieved update set record - this will also delete the associated update_xml records
+	deleteUpdateSet: function(sysid){
+		var gr = new GlideRecord("sys_remote_update_set");
+		if (gr.get(sysid)){
+			gr.deleteRecord();
+		}
+	},
+	
+	// Build the XML payload of the temporary retrieved update set
+	getUpdateSetPayload: function(sysid){
+		// Start building the XML output
+		var outputStart = "&lt;?xml version=\"1.0\" encoding=\"UTF-8\"?&gt;";
+		var unloadTag = "&lt;unload unload_date=\"" + GlideSysDateUtil.getUMTDateTimeString() + "\"&gt;";
+		var unloadClose = "&lt;/unload&gt;";
+		
+		// Add a cleaned up payload of the update set record itself
+		var updateSetGR = new GlideRecord("sys_remote_update_set");
+		updateSetGR.get(sysid);
+		var xml = new GlideRecordXMLSerializer();
+		var updateSet = new String(xml.serialize(updateSetGR))
+		updateSet = this._cleanXMLBlock(updateSet);
+		
+		var output = outputStart + unloadTag + updateSet;
+		
+		// Add cleaned up payloads of the all the customer updates
+		var custUpdateGR = new GlideRecord("sys_update_xml");
+		custUpdateGR.addQuery("remote_update_set", updateSetGR.sys_id);
+		custUpdateGR.query();
+		while(custUpdateGR.next()){
+			var xmlString = new GlideRecordXMLSerializer();
+			var custUpdate = new String(xmlString.serialize(custUpdateGR));
+			custUpdate = this._cleanXMLBlock(custUpdate);
+			output += custUpdate;
+		}
+		output += unloadClose;
+		return output;
+	},
+	
+	// Main function to copy, extract, and delete the temporary update set
+	copyAndExtract: function(sysid){
+		var tempSysId = this.copyUpdateSet(sysid);
+		var output = this.getUpdateSetPayload(tempSysId);
+		this.deleteUpdateSet(tempSysId); 
+		return output;
+	},
+
+	type: 'UpdateSetUtil'
+};]]&gt;&lt;/script&gt;
+&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;
+&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+&lt;sys_created_on&gt;2016-12-12 16:27:26&lt;/sys_created_on&gt;
+&lt;sys_id&gt;c30f385b0f232200275b09bce1050e4d&lt;/sys_id&gt;
+&lt;sys_mod_count&gt;23&lt;/sys_mod_count&gt;
+&lt;sys_name&gt;UpdateSetUtil&lt;/sys_name&gt;
+&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;
+&lt;sys_policy/&gt;
+&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;
+&lt;sys_update_name&gt;sys_script_include_c30f385b0f232200275b09bce1050e4d&lt;/sys_update_name&gt;
+&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+&lt;sys_updated_on&gt;2020-05-22 03:50:14&lt;/sys_updated_on&gt;
+&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1953390873</payload_hash>
+<remote_update_set display_value="Keep My Stuff In GitLab">21202c4cdbcd1050a4faf9051d961910</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2020-05-23 02:32:52</sys_created_on>
+<sys_id>fd20ec40db015050a4faf9051d961950</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1723a9f7a810000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2020-05-23 02:32:52</sys_updated_on>
+<table/>
+<target_name>UpdateSetUtil</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>15ff67ef9c3c9c10dbf716c078d740aa</update_guid>
+<update_guid_history>15ff67ef9c3c9c10dbf716c078d740aa:-1953390873,047823effc3c90505cab118e0ae38f9c:-1953390873</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
